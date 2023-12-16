@@ -18,7 +18,7 @@ let layers = {
 // Create the map with our layers.
 let map = L.map("map-id", {
   center: [40.73, -74.0059],
-  zoom: 14,
+  zoom: 12,
   layers: [
     layers.COMING_SOON,
     layers.EMPTY,
